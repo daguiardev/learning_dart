@@ -1,8 +1,0 @@
----
-repos:
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v1.0.0  # Replace with latest tag
-    hooks:
-      - id: commitizen
-      - id: commitizen-branch
-        stages: [pre-push]
