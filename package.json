@@ -7,11 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "cz"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daguiardev/learning_dart.git"
