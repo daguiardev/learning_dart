@@ -1,5 +1,4 @@
-name: Commit messages validation
-description: Workflow to validate each commit pushed to the branch ensuring convention commits patterns.
+name: Conventional Commits
 
 on: [push, pull_request]
 
@@ -13,6 +12,7 @@ jobs:
           fetch-depth: 0 # Essential to fetch all history for linting
 
       - name: Check Conventional Commits
-        uses: webiny/action-conventional-commits@v1
+        uses: webiny/action-conventional-commits@v1.4.2
         with:
-          allowed-commit-types: "feat,fix,chore,docs,style,refactor,perf,test,ci,build"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Optional, for private repositories.
+          allowed-commit-types: "feat,fix,chore,docs,style,refactor,perf,test,ci,build" # Optional, set if you want a subset of commit types to be allowed.

@@ -22,3 +22,4 @@ melos:
     version:
       # Ativa o suporte estrito a Commits Convencionais para versionamento e changelogs
       conventionalCommits: true
+      
