@@ -1,0 +1,5 @@
+name: Learning Dart
+
+packages:
+  - . # Inclui o projeto da raiz, se aplicável
+  - packages/* # Caso decida separar em múltiplos pacotes no futuro
