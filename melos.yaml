@@ -1,0 +1,10 @@
+name: meu_projeto_cli
+
+packages:
+  - . # Inclui o projeto da raiz, se aplicável
+  - packages/* # Caso decida separar em múltiplos pacotes no futuro
+
+command:
+  version:
+    # Ativa o suporte estrito a Commits Convencionais para versionamento e changelogs
+    conventionalCommits: true
