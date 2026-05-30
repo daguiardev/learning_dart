@@ -5,7 +5,7 @@ on: [push, pull_request] # Trigger on both push and pull request events to ensur
 jobs:
   validate-commits: # Name of the job
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Checkout Code
         uses: actions/checkout@v4 # Use the latest version of the checkout action
         with:
