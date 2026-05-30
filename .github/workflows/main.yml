@@ -3,7 +3,7 @@ name: Conventional Commits
 on: [push, pull_request] # Trigger on both push and pull request events to ensure commit messages are validated in all scenarios.
 
 jobs:
-  validate-commits: # Name of the job
+  validate-commits: # Name of the job.
     runs-on: ubuntu-latest
     steps: 
       - name: Checkout Code
