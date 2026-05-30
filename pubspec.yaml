@@ -19,6 +19,6 @@ dev_dependencies:
 melos:
   useRootAsPackage: true
   command:
-  version:
-    # Ativa o suporte estrito a Commits Convencionais para versionamento e changelogs
-    conventionalCommits: true
+    version:
+      # Ativa o suporte estrito a Commits Convencionais para versionamento e changelogs
+      conventionalCommits: true
